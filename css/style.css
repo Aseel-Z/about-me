@@ -1,0 +1,26 @@
+body {
+  background-color: #D7CEC7;
+}
+
+h1 {
+    color: #76323F;
+    text-align: center;
+  }
+
+h2 {
+    color: orange;
+    text-align: center;
+  } 
+
+h3 {
+  background-color: #C09F80;
+}
+
+img {
+  float: right;
+}
+
+footer {
+    color: darkslategray;
+  }
+  
