@@ -1,5 +1,8 @@
 body {
-  background-color: #D7CEC7;
+  background-image: url(https://image.freepik.com/free-vector/blue-pink-sweet-candy-watercolor-background_70155-223.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -14,7 +17,7 @@ h2 {
 
 h3 {
   color: rgb(0, 138, 138);
-  background-color: #C09F80;
+  background-color: #ffc2ff;
 }
 
 img {
