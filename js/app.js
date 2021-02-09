@@ -59,6 +59,6 @@ if(myHobby.toLowerCase() === 'yes' || myHobby.toLowerCase() === 'y'){
   alert('You are not Correct, check my info below!');
 }
 
-alert (userName);
+alert ('Welcome ' + userName);
 
 document.getElementById('Name').innerHTML = userName;
