@@ -1,26 +1,8 @@
 'use strict';
 
-let correctCounter=0;
-
-let attemptsNo=6;
-while(attemptsNo){
-  let userInput2 = prompt('Guess one of my Top Ten Places to Visit!').toLowerCase();
-  if ((userInput2=== 'prague') || (userInput2=== 'paris') || (userInput2=== 'berlin') || (userInput2=== 'dublin') || (userInput2=== 'stockholm') || (userInput2=== 'moscow') || (userInput2=== 'madrid') || (userInput2=== 'oslo') || (userInput2=== 'london') || (userInput2=== 'sofia')){
-    alert('Correct!! ' + userInput2 + ' is one of my favorite cities.');
-    correctCounter++;
-    break;
-  } else{
-    attemptsNo--;
-    alert('No, Try again, you still have : ' + attemptsNo + ' attempts remaining!');
-    if(!attemptsNo){
-      alert('Game Over! check my info below!');
-      break;
-    }
-  }
-}
-
 let userName = prompt('What is your name?');
 
+let correctCounter=0;
 let userInput = prompt('Guess my favorite number between 1 and 9');
 let myFavNum = 7;
 let attempts = 4;
@@ -40,6 +22,23 @@ while (attempts) {
   if (attempts===1) {
     alert('Game Over! Correct number is 7!');
     break;
+  }
+}
+
+let attemptsNo=6;
+while(attemptsNo){
+  let userInput2 = prompt('Guess one of my Top Ten Places to Visit!').toLowerCase();
+  if ((userInput2=== 'prague') || (userInput2=== 'paris') || (userInput2=== 'berlin') || (userInput2=== 'dublin') || (userInput2=== 'stockholm') || (userInput2=== 'moscow') || (userInput2=== 'madrid') || (userInput2=== 'oslo') || (userInput2=== 'london') || (userInput2=== 'sofia')){
+    alert('Correct!! ' + userInput2 + ' is one of my favorite cities.');
+    correctCounter++;
+    break;
+  } else{
+    attemptsNo--;
+    alert('No, Try again, you still have : ' + attemptsNo + ' attempts remaining!');
+    if(!attemptsNo){
+      alert('Game Over! check my info below!');
+      break;
+    }
   }
 }
 
