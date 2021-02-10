@@ -1,6 +1,8 @@
 # Lab-02
 
 ## About-me
+**_Navigator Name: Mais Daoud_**
+**_Driver Name: Aseel Alzweri_**
 
 This is a guessing game that utilizes HTML, CSS & JS. You can learn more about me in this game.
 
