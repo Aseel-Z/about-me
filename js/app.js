@@ -46,7 +46,7 @@ let myJob = prompt('Am I an engineer?');
 while (myJob !== 'yes' && myJob !== 'y' && myJob !== 'no' && myJob !== 'n') {
   myJob = prompt('Am I an engineer? yes[y] or no[n]?');
 }
-function job (myJob){
+function job(myJob){
   if (myJob.toLowerCase() === 'yes' || myJob.toLowerCase() === 'y') {
     alert('You are Correct!');
     correctCounter++;
@@ -55,7 +55,8 @@ function job (myJob){
     alert('You are not Correct, check my info below!');
   }
 }
-job ();
+job(myJob);
+
 let isMom = prompt('Am I a mother?');
 function mom(isMom){while (isMom !== 'yes' && isMom !== 'y' && isMom !== 'no' && isMom !== 'n') {
   isMom = prompt('Am I a mother? yes[y] or no[n]?');
@@ -68,7 +69,7 @@ if (isMom.toLowerCase() === 'yes' || isMom.toLowerCase() === 'y') {
   alert('You are not Correct, check my info below!');
 }
 }
-mom();
+mom(isMom);
 
 let myPet = prompt('Do you think my pet is a dog?');
 while (myPet !== 'yes' && myPet !== 'y' && myPet !== 'no' && myPet !== 'n') {
@@ -82,7 +83,7 @@ if (myPet.toLowerCase() === 'yes' || myPet.toLowerCase() === 'y') {
 } else if (myPet.toLowerCase() === 'no' || myPet.toLowerCase() === 'n') {
   alert('You are not Correct, check my info below!');
 }}
-pet();
+pet(myPet);
 
 let myCity = prompt('Do you think I live in Amman?');
 while (myCity !== 'yes' && myCity !== 'y' && myCity !== 'no' && myCity !== 'n') {
@@ -97,7 +98,7 @@ function city(myCity){
     alert('You are not Correct, check my info below!');
   }
 }
-city();
+city(myCity);
 
 let myHobby = prompt('Do you think I played Taekwondo?');
 while (myHobby !== 'yes' && myHobby !== 'y' && myHobby !== 'no' && myHobby !== 'n') {
@@ -112,7 +113,7 @@ function hobby (myHobby){
     alert('You are not Correct, check my info below!');
   }
 }
-hobby();
+hobby(myHobby);
 
 alert('Welcome ' + userName);
 alert('You scored ' + correctCounter + ' Out of 7!');
