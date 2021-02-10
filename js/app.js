@@ -105,7 +105,7 @@ if (myHobby.toLowerCase() === 'yes' || myHobby.toLowerCase() === 'y') {
 }
 
 alert('Welcome ' + userName);
-alert('Your Score' + correctCounter);
+alert('Your Score is ' + correctCounter + ' Out of 7!');
 
 document.getElementById('Name').innerHTML = userName;
 document.getElementById('correctCount').innerHTML = correctCounter;
